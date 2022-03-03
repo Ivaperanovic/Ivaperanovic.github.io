@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Kockice i kapice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./kockice_i_kapice/main.css" rel="stylesheet" type="text/css">
+        <link href="./kockice_i_kapice/css" rel="stylesheet" type="text/css">
+        <link href="./kockice_i_kapice/font-awesome.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="outer">
+            <div id="container">
+                <h1>Kockice i kapice</h1>
+                <p>
+                    Dvije kockice se nalaze ispod kapica na beskonačnoj liniji. Kockice se mogu programirati iz sljedećeg
+                    seta instrukcija:
+                </p>
+                <table class="instructions">
+                    <tbody><tr><td><code>left</code></td><td>Pomiče kockicu lijevo za jedno mjesto</td></tr>
+                    <tr><td><code>right</code></td><td>Pomiče kockicu desno za jedno mjesto</td></tr>
+                    <tr><td><code>skipNext</code></td><td>Preskače sljedeću instrukciju ako je kocka ispod kapice</td></tr>
+                    <tr><td><code>goto <i>label</i></code></td><td>Izvršava instrukcije navedene pod nazivom labele (<i>start</i> u primjeru niže)</td></tr>
+                </tbody></table>
+                <p>
+                    Uz svaku od ovih uputa može se staviti neobvezna oznaka (<code><i>label</i>: instruction</code>).
+                </p>
+                <p>
+                    Vaš cilj je programirati kockice da se sretnu (sudare). Obje kockice pokreću isti kod.
+                </p>
+                <div id="component"><div data-reactid=".0"><div class="canvas" data-reactid=".0.0"><div class="robot1" style="left:350.0px;position:absolute;" data-reactid=".0.0.0"></div><div class="robot2" style="left:450.0px;position:absolute;" data-reactid=".0.0.1"></div><div class="parachute1" style="left:350.0px;" data-reactid=".0.0.2"></div><div class="parachute2" style="left:450.0px;" data-reactid=".0.0.3"></div></div><div class="panel" data-reactid=".0.1"><div class="editor" data-reactid=".0.1.0"><textarea rows="10" spellcheck="false" placeholder="Enter your code here..." data-reactid=".0.1.0.0">start: left
+       goto start</textarea></div><div class="program" data-reactid=".0.1.1"><table data-reactid=".0.1.1.0"><tbody data-reactid=".0.1.1.0.0"></tbody></table></div></div><div class="buttons" data-reactid=".0.2"><button title="Transfer your program to the robots" data-reactid=".0.2.0"><i class="fa fa-cogs" data-reactid=".0.2.0.0"></i><span data-reactid=".0.2.0.1"> Parse</span></button><button disabled="" id="step" title="You need to parse your program first" data-reactid=".0.2.1"><i class="fa fa-step-forward" data-reactid=".0.2.1.0"></i><span data-reactid=".0.2.1.1"> Step</span></button><button disabled="" title="You need to parse your program first" data-reactid=".0.2.2"><i class="fa fa-play" data-reactid=".0.2.2.0"></i><span data-reactid=".0.2.2.1"> Run</span></button><button title="Deploy the robots to new starting positions" data-reactid=".0.2.3"><i class="fa fa-random" data-reactid=".0.2.3.0"></i><span data-reactid=".0.2.3.1"> Randomize</span></button></div></div></div>
+            </div>
+        </div>
+
+        <script async="" src="./kockice_i_kapice/analytics.js.download"></script><script type="text/javascript" src="./kockice_i_kapice/main.js.download"></script>
+
+
+</body></html>
